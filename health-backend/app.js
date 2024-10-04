@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
 // Route to interact with external API
 app.get('/api/data', async (req, res) => {
   try {
-    const response = await axios.get('https://api.example.com/data');  // Replace with a real API URL
+    const response = await axios.get('https://dev.abdm.gov.in/api/hiecm/gateway/v3/sessions');  // Replace with a real API URL
     res.json(response.data);
   } catch (error) {
     console.error(error);

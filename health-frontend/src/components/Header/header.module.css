@@ -1,7 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=B612+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Fredoka:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 .link {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
   margin: 5px;
   text-decoration: none;
-  color: black;
+  color: white;
+  background: #007bff;
+  padding: 10px;
+  border: 0;
+  border-radius: 0.5rem;
+}
+
+.links .link:nth-child(1) {
+  background: #ff5733;
+}
+
+.links .link:nth-child(1):hover {
+  background: #ff3033;
 }
 
 .container {
@@ -27,17 +43,16 @@
 }
 
 .buttonlink {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .link:hover {
-    background: #cdcdcd;
-    border-radius: 1rem;
+  background: #005bff;
 }
 
 .loginbutton:hover {
-    background: #005bff;
-    cursor: pointer;
+  background: #005bff;
+  cursor: pointer;
 }

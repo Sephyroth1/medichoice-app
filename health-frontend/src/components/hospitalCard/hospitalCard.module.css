@@ -1,30 +1,20 @@
-.container {
+@import url("https://fonts.googleapis.com/css2?family=B612+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Fredoka:wght@300..700&display=swap");
+
+.section {
+  background: #007cbf;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  height: 300px;
+  padding: 50px;
 }
 
-.card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border: 2px solid black;
-  border-radius: 1rem;
-  width: 600px;
-  
-}
-
-.leftarrow,
-.rightarrow {
-  transform: scale(3);
-}
-
-.imgdoc {
-  margin: 10px;
-}
-
-.cardContainer {
-    display: flex;
+.hero_section {
+  font-size: 1.7rem;
+  max-width: 1000px;
+  font-family: "Fredoka", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 1.5;
+  color: white;
 }
