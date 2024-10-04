@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 1rem;
+  width: 600px;
+  
+}
+
+.leftarrow,
+.rightarrow {
+  transform: scale(3);
+}
+
+.imgdoc {
+  margin: 10px;
+}
+
+.cardContainer {
+    display: flex;
+}
